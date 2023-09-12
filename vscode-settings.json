@@ -1,4 +1,41 @@
 {
-  "breadcumbs.enabled": false,
-  "workbench.settingsEditor": "json"
+  "breadcrumbs.enabled": false,
+  "window.titleBarStyle": "custom",
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  //WORKBENCH SETTINGS
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "New Moon",
+  "workbench.iconTheme": "material-icon-theme",
+  // EDITOR SETTINGS
+  "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "all",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 3,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  //"editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [
+    80,
+    100
+  ],
+  // EXPLORER SETTINGS
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "type",
+  // LANGUAGE SPECIFIC SETTINGS
+  "[java]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "redhat.java"
+  }
 }
